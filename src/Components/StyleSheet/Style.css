@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.center{
+    justify-content: center;
+}
+
+.w-50{
+    width: 20px;
+}
+
+
+.bg-main{
+    background-color: #f2f4fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+
+.m-left-80{
+    margin-left: 80px;
+}
+
+.m-left-10{
+    margin-left: 10px;
+}
+
+.m-left-20{
+    margin-left: 20px;
+}
+
+.m-card{
+    margin: 0 7px 0 20px;
+}
+
+.m-top-35{
+    margin-top: 35px;
+}
+
+.m-top-5{
+    margin-top: 5px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.f-size-15{
+    font-size: 15px;
+}
+.f-size-16{
+    font-size: 0.96rem;
+}
+
+.f-size-18{
+    font-size: 18px;
+}
+
+
+.h1-title{
+    color: #5d5fef;
+    font-weight: 600;
+}
+
+.f-weight-500{
+    font-weight: 600;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.d-grid{
+    display: grid;
+}
+
+.grid-col-left-right{
+    grid-template-columns: 2fr 2fr;
+}
+
+.grid-col-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-area{  
+    margin-bottom: 20px;
+}
+
+#card-img{
+    width: 250px;
+    height: 150px;
+    border-radius: 14px;
+    margin: 15px 19px;
+    
+}
+
+.b-radius{
+    border-radius: 14px;
+}
+
+.button-blue{
+    padding: 7px 75px;
+    background-color: #5d5fef;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+
+.button-green{
+    padding: 7px 60px;
+        background-color: #27ae60;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+}
